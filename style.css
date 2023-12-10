@@ -1,0 +1,26 @@
+/*menu styling*/
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: center;
+}
+
+a.menuLink:link {
+    text-decoration: none;
+}
+
+a.menuLink:visited {
+    text-decoration: none;
+}
+
+a.menuLink:hover {
+    text-decoration: none;
+}
+
+a.menuLink:active {
+    text-decoration: none;
+}
