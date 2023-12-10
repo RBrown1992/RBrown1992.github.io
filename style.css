@@ -7,6 +7,8 @@
 .menuBar a {
     float: left;
     font-size: 20px;
+    font-family: verdana,  tahoma, sans-serif;
+    font-weight: bold;
     color: rgba(255,255,255,1);
     text-align: center;
     text-decoration: none;
@@ -16,4 +18,75 @@
 .menuBar a:hover {
     background-color: rgba(255,255,255,1);
     color: rgba(0,0,0,1);
+}
+
+/*portfolio image and name styling*/
+.heroHeader {
+    
+    justify-content: left;
+}
+
+.imageContainer {
+    justify-content: left;
+}
+
+.portfolioImage{
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(164,128,0);
+    margin: 2.5% 0% 2.5% 2.5%;
+}
+
+.nameContainer {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(164,128,0);
+    border-radius: 15px;
+    background-color: rgb(98,0,0);
+    padding: 0% 0% 1% 5%;
+    margin: 1% 1% 1% 1%;
+    line-height: 0.1;
+}
+
+.nameText {
+    font-family: verdana,  tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: grey;
+}
+
+.titleText {
+    font-family: verdana,  tahoma, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+/*about me section styling*/
+.aboutContainer {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(164,128,0);
+    border-radius: 15px;
+    background-color: rgb(98,0,0);
+    padding: 5% 5% 5% 5%;
+    margin: 1% 1% 1% 1%;
+    line-height: 0.1;
+}
+
+.title {
+    font-family: verdana,  tahoma, sans-serif;
+    color: grey;
+    font-size: 40px;
+    font-weight: bold;
+}
+  
+.text {
+    font-family: verdana,  tahoma, sans-serif;
+    color: grey;
+    padding: 5% 5% 1% 5%;
+    line-height: 1.2;
+    font-size: 20px;
 }
