@@ -1,26 +1,19 @@
 /*menu styling*/
-.menu{
-    list-style: none;
-    display: flex;
-}
-
 .menuBar {
-    display: flex;
-    justify-content: center;
+    overflow: hidden;
+    background-color: rgba(0,0,0,1);
 }
 
-a.menuLink:link {
+.menuBar a {
+    float: left;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    text-align: center;
     text-decoration: none;
+    padding: 10px 60px;
 }
 
-a.menuLink:visited {
-    text-decoration: none;
-}
-
-a.menuLink:hover {
-    text-decoration: none;
-}
-
-a.menuLink:active {
-    text-decoration: none;
+.menuBar a:hover {
+    background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
 }
