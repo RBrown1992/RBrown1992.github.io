@@ -170,6 +170,28 @@
     padding: 2% 25% 2% 25%
 }
 
+.externalLink {
+    color: rgba(164,128,0,1.0)
+}
+
+.figure {
+    padding: 2% 10% 2% 12%;
+}
+
+.figureImage {
+    width: 80%;
+    padding: 0% 0% 0% 8%;
+}
+
+.figureCaption {
+    color: grey;
+    font-family: verdana,  tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    padding: 1% 1% 1% 1%;
+}
+
 /*footer styling*/
 .footer {
     color: grey;
