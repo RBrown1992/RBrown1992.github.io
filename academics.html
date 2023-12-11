@@ -24,10 +24,62 @@
         </ul>
     </nav>
 
-    Academics
+    <article class="academicsContainer">
+        <section class="title">
+            Academic History
+        </section>
+        <section class="text">
+            I have prior academic experience at both Saint Mary's University and Ontario Tech University, and I am a current student at NSCC Institute of Technology Campus. For more details please select one of the following tabs. 
+        </section>
+    </article>
+
+    <button type="button" class="collapsible schoolName">Saint Mary's University
+        <p class="schoolYears">2010 to 2015</p>
+    </button>
+        <div class="content collapsible-body">
+            <p class="dropdownText">
+
+            </p>
+        </div>
+
+        <button type="button" class="collapsible schoolName">Ontario Tech University
+            <p class="schoolYears">2019 to 2022</p>
+        </button>
+            <div class="content collapsible-body">
+                <p class="dropdownText">
+    
+                </p>
+            </div>
+    
+        <button type="button" class="collapsible schoolName">NSCC Institute of Technology
+            <p class="schoolYears">2023 to present</p>
+        </button>
+            <div class="content collapsible-body">
+                <p class="dropdownText">
+        
+                </p>
+            </div>
 
     <footer>
         <p class="footer">&copy; Ryan Brown | 2023</p>
     </footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+    
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+    </script>
+
 </body>
 </html>

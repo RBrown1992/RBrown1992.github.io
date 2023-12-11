@@ -1,7 +1,7 @@
 /*menu styling*/
 .menuBar {
     overflow: hidden;
-    background-color: rgba(98,0,0,1);
+    background-color: rgba(98,0,0,1.0);
 }
 
 .menuBar a {
@@ -9,14 +9,14 @@
     font-size: 20px;
     font-family: verdana,  tahoma, sans-serif;
     font-weight: bold;
-    color: rgba(164,128,0,1);
+    color: rgba(164,128,0,1.0);
     text-align: center;
     text-decoration: none;
     padding: 10px 60px;
 }
 
 .menuBar a:hover {
-    background-color: rgba(164,128,0,1);
+    background-color: rgba(164,128,0,1.0);
     color: rgba(98,0,0,1);
 }
 
@@ -35,16 +35,16 @@
     border-radius: 50%;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(164,128,0);
+    border-color: rgba(164,128,0,1.0);
     margin: 2.5% 0% 2.5% 2.5%;
 }
 
 .nameContainer {
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(164,128,0);
+    border-color: rgba(164,128,0,1.0);
     border-radius: 15px;
-    background-color: rgb(98,0,0);
+    background-color: rgba(98,0,0,1.0);
     padding: 0% 0% 1% 5%;
     margin: 1% 1% 5% 1%;
     line-height: 0.1;
@@ -67,9 +67,9 @@
 .aboutContainer {
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(164,128,0);
+    border-color: rgba(164,128,0,1.0);
     border-radius: 15px;
-    background-color: rgb(98,0,0);
+    background-color: rgba(98,0,0,1.0);
     padding: 5% 5% 5% 5%;
     margin: 1% 1% 1% 1%;
     line-height: 0.1;
@@ -89,6 +89,66 @@
     padding: 1% 5% 1% 5%;
     line-height: 1.2;
     font-size: 20px;
+}
+
+/*academics stlying*/
+.academicsContainer {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(164,128,0,1.0);
+    border-radius: 15px;
+    background-color: rgba(98,0,0,1.0);
+    padding: 5% 5% 5% 5%;
+    margin: 7.5% 1% 1% 1%;
+    line-height: 0.1;
+}
+
+.collapsible{
+    background-color: rgba(98,0,0,1.0);
+    color: grey;
+    cursor: pointer;
+    padding: 5% 5% 5% 5%;
+    margin: 1% 1% 1% 1%;
+    width: 98%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(164,128,0,1.0);
+    border-radius: 15px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: verdana,  tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.active, .collapsible:hover {
+    background-color: rgba(98,64,64,1.0);
+}
+
+.content {
+    padding: 0%;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(98,0,0,1.0);
+}
+
+.schoolName {
+    font-size: 40px;
+}
+
+.schoolYears {
+    font-size: 20px;
+}
+
+.collapsible-body {
+    background-color: rgba(98,0,0,1.0);
+}
+
+.dropdownText {
+    text-align: justify;
+    text-align-last: center;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 /*footer styling*/
