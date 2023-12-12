@@ -24,8 +24,24 @@
         </ul>
     </nav>
 
-    Contact
-
+    <article class="contactContainer">
+        <section class="title">
+            Contact Me
+        </section>
+        <section class="text">
+            If you wish to contact me, please complete the following and submit. I will reply to you as soon as I can. 
+        </section>
+        <form class="emailForm" action="email-form.php" method="POST" name="EmailForm">
+            <label class="formLabel" for="name">Name:</label><br><br>
+            <input class="formInput" type="text" id="name" name="name"><br><br>
+            <label class="formLabel" for="email">Email:</label><br><br>
+            <input class="formInput" type="text" id="email" name="email"><br><br>
+            <label class="formLabel" for="ContactCommentt">Message:</label><br><br>
+            <textarea class="formTextArea" id=”ContactCommentt” rows=”10″ cols=”20″></textarea>
+            <input class="formInput" type="submit" value="Send Form">
+        </form>
+    </article>
+    
     <footer>
         <p class="footer">&copy; Ryan Brown | 2023</p>
     </footer>
