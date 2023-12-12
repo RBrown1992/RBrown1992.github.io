@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio - Ryan Brown - Academics</title>
     <style>
+        /*standard html styling to fit page and bacgroud colour*/
         html{
             min-height: 100%;
             margin: -10px;
@@ -23,7 +24,7 @@
             <a href="contact.html">Contact</a>
         </ul>
     </nav>
-
+    <!--summary of academic history-->
     <article class="academicsContainer">
         <section class="title">
             Academic History
@@ -32,7 +33,7 @@
             I have prior academic experience at both Saint Mary's University and Ontario Tech University, and I am a current student at NSCC Institute of Technology Campus. For more details please select one of the following tabs. 
         </section>
     </article>
-
+    <!--collapsable dropdown with example material, SMU-->
     <button type="button" class="collapsible schoolName">Saint Mary's University
         <p class="schoolYears">2010 to 2015</p>
     </button>
@@ -43,62 +44,69 @@
             <p class="dropdownText">
                 As part of my degree, had to complete a thesis project. A copy of my thesis is included below.
             </p>
+            <!--embedded pdf file of thesis-->
             <embed class="thesis" type="application/pdf" src="ryanbrownthesismay20.pdf">
         </div>
-
+        <!--collapsable dropdown with example material, OTU-->
         <button type="button" class="collapsible schoolName">Ontario Tech University
             <p class="schoolYears">2019 to 2022</p>
-        </button>
-            <div class="content collapsible-body">
-                <p class="dropdownText">
-                    I attended Ontario Tech University between Fall 2019 and Spring 2022, as a Nuclear Engineering student.
-                </p>
-                <p class="dropdownText">
-                    In addition to my studies, I was employed by the Faculty of Energy Systems and Nuclear Science as part-time Student Lab Assistant. Some of the tasks I performed for my job at the school included:
-                </p>
-                <p class="dropdownText">
-                    A promotional video fo the faculty (made with the help of <a class="externalLink" href="https://ocularvision.ca/">Ocular Vision Media</a>).
-                </p>
-                <video class="video" controls>
-                    <source src="promo_video_compressed.mp4" type="video/mp4">
-                </video>
-                <p class="dropdownText">
-                    Host and design a <a class="externalLink" href="SMR X Hackathon Challenge 06 June 2020 Prepared by Sharman Perera (2).pdf" target="blank" title="SMR X Hackathon">Hackathon Challenge</a> online during COVID-19. To host the event online, I designed a VR environment for the event in Mozilla Hubs. A video tour of the event VR site and assets is shown below.
-                </p>
-                <video class="video" controls>
-                    <source src="compressed_hub_video.mp4" type="video/mp4">
-                </video>
-                <p class="dropdownText">
-                    Create video tutorials for lab exercises for various classes, since during COVID-19 in-person labs were not possible and alternative resources were needed. An example of one of these tutorials is shown below.
-                </p>
-                <video class="video" controls>
-                    <source src="iel_lab_3_compressed.mp4"  type="video/mp4">
-                </video>
-            </div>
-    
-        <button type="button" class="collapsible schoolName">NSCC Institute of Technology
-            <p class="schoolYears">2023 to present</p>
-        </button>
-            <div class="content collapsible-body">
-                <p class="dropdownText">
+    </button>
+        <div class="content collapsible-body">
+            <p class="dropdownText">
+                I attended Ontario Tech University between Fall 2019 and Spring 2022, as a Nuclear Engineering student.
+            </p>
+            <p class="dropdownText">
+                In addition to my studies, I was employed by the Faculty of Energy Systems and Nuclear Science as part-time Student Lab Assistant. Some of the tasks I performed for my job at the school included:
+            </p>
+            <p class="dropdownText">
+                A promotional video fo the faculty (made with the help of <a class="externalLink" href="https://ocularvision.ca/">Ocular Vision Media</a>).
+            </p>
+            <!--embedded video file of promotional material-->
+            <video class="video" controls>
+                <source src="promo_video_compressed.mp4" type="video/mp4">
+            </video>
+            <p class="dropdownText">
+                Host and design a <a class="externalLink" href="SMR X Hackathon Challenge 06 June 2020 Prepared by Sharman Perera (2).pdf" target="blank" title="SMR X Hackathon">Hackathon Challenge</a> online during COVID-19. To host the event online, I designed a VR environment for the event in Mozilla Hubs. A video tour of the event VR site and assets is shown below.
+            </p>
+            <!--embedded video file of mozilla hubs environment-->
+            <video class="video" controls>
+                <source src="compressed_hub_video.mp4" type="video/mp4">
+            </video>
+            <p class="dropdownText">
+                Create video tutorials for lab exercises for various classes, since during COVID-19 in-person labs were not possible and alternative resources were needed. An example of one of these tutorials is shown below.
+            </p>
+            <!--embedded video file of lab tutorial video-->
+            <video class="video" controls>
+                <source src="iel_lab_3_compressed.mp4"  type="video/mp4">
+            </video>
+        </div>
+    <!--collapsable dropdown with example material, NSCC-->
+    <button type="button" class="collapsible schoolName">NSCC Institute of Technology
+        <p class="schoolYears">2023 to present</p>
+    </button>
+        <div class="content collapsible-body">
+            <p class="dropdownText">
                     As of now (December 2023), some projects that I have completed as part of my education at NSCC include:
-                </p>
-                <p class="dropdownText">
-                    A final project for Programming 1700 that selects data from a database file based on user inputs. (python files available <a class="externalLink" href="final_project_ryan_brown.py" target="blank" title="PROG1700 Final Project - Main Code">here</a> and <a class="externalLink" href="final_modules.py" target="blank" title="PROG1700 Final Project - Function Module">here</a>).
-                </p>
-                <p class="dropdownText">
-                    A term long series of assignments for Windows Administration 1200 culminating in constructing two virtual machines and linking them as a domain.
-                </p>
-                <figure class="figure">
-                    <img class="figureImage" src="osys1200_domain_controller.PNG">
-                    <figcaption class="figureCaption">Screenshot of virtual machine constructed as a domain controller as part of OSYS1200 final assignment.</figcaption>
-                </figure>
-            </div>
-
+            </p>
+            <!--external links to python files for PROG1700 Final Project-->
+            <p class="dropdownText">
+                A final project for Programming 1700 that selects data from a database file based on user inputs. (python files available <a class="externalLink" href="final_project_ryan_brown.py" target="blank" title="PROG1700 Final Project - Main Code">here</a> and <a class="externalLink" href="final_modules.py" target="blank" title="PROG1700 Final Project - Function Module">here</a>).
+            </p>
+            <p class="dropdownText">
+                A term long series of assignments for Windows Administration 1200 culminating in constructing two virtual machines and linking them as a domain.
+            </p>
+            <!--image of screenshot of virtual machine made for OSYS1200, as figure to include a caption-->
+            <figure class="figure">
+                <img class="figureImage" src="osys1200_domain_controller.PNG">
+                <figcaption class="figureCaption">Screenshot of virtual machine constructed as a domain controller as part of OSYS1200 final assignment.</figcaption>
+            </figure>
+        </div>
+    <!--footer with copyright/name/date-->
     <footer>
         <p class="footer">&copy; Ryan Brown | 2023</p>
     </footer>
-
+    <!--javascript used to implement collapsable dropdown-->
+    <!--adapted from W3Schools tutorial on creating a collapsable: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible-->
     <script>
         var coll = document.getElementsByClassName("collapsible");
         var i;

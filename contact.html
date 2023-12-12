@@ -4,9 +4,10 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio - Ryan Brown</title>
+    <title>Portfolio - Ryan Brown - Contact</title>
     <style>
         html{
+            /*standard html styling to fit page and bacgroud colour*/
             min-height: 100%;
             margin: -10px;
             background-color: rgba(98,64,64,1);
@@ -23,25 +24,29 @@
             <a href="contact.html">Contact</a>
         </ul>
     </nav>
-
+    <!--contact me message-->
     <article class="contactContainer">
         <section class="title">
             Contact Me
         </section>
         <section class="text">
-            If you wish to contact me, please complete the following and submit. I will reply to you as soon as I can. 
+            If you wish to contact me please complete the following form; including your name, email address, and message content, and the click submit. I will reply to you as soon as I can. 
         </section>
+        <!--form for submitting an email to my school email-->
+        <!--GitHub io does not support .php file execution, so this section does not function correctly.-->
+        <!--If web server with .php allowed was used to host the website, then the following code and 
+            email-form.php file would allow user to email me without me supplying my email address directly to the user-->
         <form class="emailForm" action="email-form.php" method="POST" name="EmailForm">
             <label class="formLabel" for="name">Name:</label><br><br>
-            <input class="formInput" type="text" id="name" name="name"><br><br>
+            <input class="formInput" type="text" id="name" name="name" placeholder="Your name here" value="" required><br><br>
             <label class="formLabel" for="email">Email:</label><br><br>
-            <input class="formInput" type="text" id="email" name="email"><br><br>
+            <input class="formInput" type="text" id="email" name="email" placeholder="your.email@domain.com" value ="" required><br><br>
             <label class="formLabel" for="ContactCommentt">Message:</label><br><br>
-            <textarea class="formTextArea" id=”ContactCommentt” rows=”10″ cols=”20″></textarea>
-            <input class="formInput" type="submit" value="Send Form">
+            <textarea class="formTextArea" id=”ContactCommentt” rows=”10″ cols=”20″ placeholder="Type your message to me here" value="" required></textarea>
+            <input class="formSubmit" type="submit" value="Send Form">
         </form>
     </article>
-    
+    <!--footer with copyright/name/date-->
     <footer>
         <p class="footer">&copy; Ryan Brown | 2023</p>
     </footer>
