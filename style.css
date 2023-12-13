@@ -254,6 +254,70 @@
     resize: none;
 }
 
+/*causes styling*/
+.causeContainer {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(164,128,0,1.0);
+    border-radius: 15px;
+    background-color: rgba(98,0,0,1.0);
+    padding: 5% 5% 5% 5%;
+    margin: 7.5% 1% 1% 2%;
+    line-height: 0.1;
+}
+
+@media screen and (min-width: 100px){
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20%;
+    }
+
+    .eacLogo {
+        width: 100%;
+        grid-column: 1;
+        grid-row: 1;
+        margin: 5% 5% 5% 0%;
+    }
+
+    .eacBlurb {
+        grid-column: 1;
+        grid-row: 2;
+        font-size: 15px;
+        color: grey;
+        line-height: 1.2;
+        margin: 100px 0% 0% 0%;
+        padding: 5% 5% 0% 5%;
+        font-family: verdana,  tahoma, sans-serif;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50%;
+    }
+
+    .eacLogo {
+        width: 90%;
+        grid-column: 1;
+        grid-row: 1;
+        margin: 5% 1% 1% 5%;
+    }
+
+    .eacBlurb {
+        grid-column: 2;
+        grid-row: 1;
+        font-size: 15px;
+        color: grey;
+        line-height: 1.2;
+        margin: 2% 0% 2% 0%;
+        padding: 5% 5% 5% 5%;
+        font-family: verdana,  tahoma, sans-serif;
+    }
+}
+
 /*footer styling*/
 .footer {
     color: grey;
