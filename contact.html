@@ -8,10 +8,20 @@
     <link rel="icon" type="image/x-icon" href="potfolio_logo.png">
     <style>
         html{
-            /*standard html styling to fit page and bacgroud colour*/
+            /*standard html styling to fit page*/
             min-height: 100%;
             margin: -10px;
-            background-color: rgba(98,64,64,1);
+            animation-name: background-colour;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        /*animation for changing background colour*/
+        @keyframes background-colour {
+            0% {background-color: rgba(96,64,64,1);}
+            25% {background-color: rgba(112,80,80,1);}
+            50% {background-color: rgba(128,96,96,1);}
+            75% {background-color: rgba(112,80,80,1);}
+            100% {background-color: rgba(96,64,64,1);}
         }
     </style>
 </head>
@@ -19,11 +29,10 @@
 <body>
     <!--navbar menu at top of page-->
     <nav class="menuBar">
-            <a href="index.html">Home</a>
-            <a href="academics.html">Academics</a>
-            <a href="causes.html">Causes</a>
-            <a href="contact.html">Contact</a>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="causes.html">Causes</a>
+        <a href="contact.html">Contact</a>
     </nav>
     <!--contact me message-->
     <article class="contactContainer">
